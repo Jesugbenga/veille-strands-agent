@@ -1,0 +1,6 @@
+# requires Python 3.10+
+strands-agents
+strands-agents-tools
+requests
+python-dotenv
+boto3
