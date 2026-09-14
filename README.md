@@ -40,7 +40,7 @@ flowchart LR
   DB --> Dash[Veille dashboard\n'Needs your attention']
 ```
 
-- **Model**: Amazon Bedrock (Mistral — Ministral 14B, function-calling capable) via Strands' default provider.
+- **Model**: Amazon Bedrock (Amazon Nova Lite) via Strands' default provider.
 - **Tools**: thin wrappers over Veille's Supabase REST API (read bookings/calls,
   write `agent_tasks`). No changes to the live voice pipeline.
 - **Human-in-the-loop**: the agent drafts and flags; it never messages customers.

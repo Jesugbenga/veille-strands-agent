@@ -41,7 +41,7 @@ Rules:
 
 def build_agent() -> Agent:
     model = BedrockModel(
-        model_id=os.environ.get("BEDROCK_MODEL_ID", "mistral.ministral-3-14b-instruct"),
+        model_id=os.environ.get("BEDROCK_MODEL_ID", "us.amazon.nova-lite-v1:0"),
         region_name=os.environ.get("AWS_REGION", "us-east-2"),
     )
     return Agent(
